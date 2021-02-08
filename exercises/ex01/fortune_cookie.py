@@ -19,15 +19,15 @@ print("You're fortune cookie says...")
 fortune: int = randint(1,4)
 
 if fortune == 1:
-    print["You will encounter an event that will positively change your life forever!"]
+    print("You will encounter an event that will positively change your life forever!")
 else:
 
     if fortune == 2:
-        print["Trust your gut in the next battle you face and your dreams will come true!"]
+        print("Trust your gut in the next battle you face and your dreams will come true!")
     else:
 
         if fortune == 3:
-            print["True love is just around the corner! Keep your head up."]
+            print("True love is just around the corner! Keep your head up.")
         else:
-            print["Life will suprise you. Try doing the unexpected and see what happens..."]
+            print("Life will suprise you. Try doing the unexpected and see what happens...")
 
