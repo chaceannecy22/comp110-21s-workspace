@@ -16,7 +16,7 @@ from random import randint
 
 print("You're fortune cookie says...")
 
-fortune: int = randint(1,4)
+fortune: int = randint(1, 4)
 
 if fortune == 1:
     print("You will encounter an event that will positively change your life forever!")
